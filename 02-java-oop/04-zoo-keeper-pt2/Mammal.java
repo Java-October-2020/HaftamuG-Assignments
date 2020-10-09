@@ -1,16 +1,16 @@
 public class Mammal {
 
     protected int energyLevel;
-    protected int throwing;
+    protected int attacking;
     protected int eating;
-    protected int climbing;
+    protected int flying;
    
     
-    public Mammal(int energyLevel, int throwing, int eating, int climbing) {
+    public Mammal(int energyLevel, int attacking, int eating, int flying) {
         this.energyLevel = energyLevel;
-        this.throwing = throwing;
+        this.attacking = attacking;
         this.eating = eating;
-        this.climbing = climbing;
+        this.flying = flying;
     }
     
 
@@ -23,12 +23,16 @@ System.out.println("Then energy level is  :  " + this.energyLevel);
     return this.energyLevel;
 }
 
-public int getThrowing() {
-    return throwing;
+public void setEnergyLevel(int energyLevel) {
+    this.energyLevel = energyLevel;
 }
 
-public void setThrowing(int thowing) {
-    this.throwing = thowing;
+public int getAttacking() {
+    return attacking;
+}
+
+public void setAttacking(int attacking) {
+    this.attacking = attacking;
 }
 
 public int getEating() {
@@ -39,13 +43,15 @@ public void setEating(int eating) {
     this.eating = eating;
 }
 
-public int getClimbing() {
-    return climbing;
+public int getFlying() {
+    return flying;
 }
 
-public void setClimbing(int climbing) {
-    this.climbing = climbing;
+public void setFlying(int flying) {
+    this.flying = flying;
 }
+
+
 
 
 

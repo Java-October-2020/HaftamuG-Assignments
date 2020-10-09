@@ -5,8 +5,11 @@ public class GorillaTest {
         mam.displayEnergy();
         Gorilla gorilla = new Gorilla();
         gorilla.throwingSomething();
+        gorilla.displayEnergy();
         gorilla.eatBananas();
+        gorilla.displayEnergy();
         gorilla.climb();
+        gorilla.displayEnergy();
        
 
     }

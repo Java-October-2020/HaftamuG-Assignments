@@ -12,14 +12,14 @@ public Gorilla(){
         System.out.println("The Gorilla Throwing bananas " + this.throwing + " times" );
         int damage = (this.throwing *-5);
         this.energyLevel = energyLevel+damage;
-         System.out.println(this.energyLevel);
+        
     }
 
     public void eatBananas(){
         System.out.println("The Gorilla ate banana:  " + this.eating + " times");
         int gainEnergy =  (this.eating *10);
         this.energyLevel = energyLevel+gainEnergy;
-        System.out.println(this.energyLevel);
+       
 
     }
 
@@ -27,7 +27,7 @@ public Gorilla(){
         System.out.println("The Gorilla climbed  atree one time ");
          int energylose= (this.climbing *-10); 
          this.energyLevel = energyLevel+energylose;
-         System.out.println(this.energyLevel);
+        
 
     }
 }
