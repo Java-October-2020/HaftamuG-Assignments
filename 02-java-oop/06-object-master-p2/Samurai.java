@@ -1,6 +1,6 @@
 
 public class Samurai extends Human {
-     int numberofSamurai = 0;
+     public static int numberofSamurai = 0;
     public Samurai(){
         super("Samurai", 3,3, 8, 200);
         numberofSamurai++;
