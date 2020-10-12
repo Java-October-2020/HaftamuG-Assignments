@@ -1,3 +1,4 @@
+
 public abstract class Phone{
     private String versionNumber;
     private int batteryPercentage;
@@ -19,7 +20,7 @@ public String getVersionNumber(){
     return versionNumber;
 }
 
-public String getBatteryPercentage(){
+public int getBatteryPercentage(){
 
     return batteryPercentage;
 }
