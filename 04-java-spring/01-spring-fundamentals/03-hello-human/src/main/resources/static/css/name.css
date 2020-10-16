@@ -1,0 +1,15 @@
+
+body{
+background-color: #efefef;;
+
+}
+
+.name{
+	min-width: 222px;
+	min-height: 222px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+	margin-left: 500px;
+	
+}
