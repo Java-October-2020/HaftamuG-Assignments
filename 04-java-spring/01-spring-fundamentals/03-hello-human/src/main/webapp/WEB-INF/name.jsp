@@ -11,8 +11,10 @@
 <body>
 
 <div class="name">
+
 <h1> Hello <c:out value="${myname}"></c:out>!</h1>
 <p> Welcome to SpringBoot!</p>
+
 </div>
 
 
