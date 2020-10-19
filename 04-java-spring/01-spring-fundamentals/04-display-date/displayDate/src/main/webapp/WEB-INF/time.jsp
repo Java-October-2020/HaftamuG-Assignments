@@ -5,15 +5,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Hello Human!</title>
-<link rel="stylesheet" type="text/css"  href="css/human.css" >
+<title>Current Time</title>
+<link rel="stylesheet" type="text/css"  href="css/date.css" >
+<script type="text/javascript" src="js/time.js"></script>
 </head>
-<body>
+<body onload = "displayTime()">
 
-<div class="human">
-<h1>  <c:out value="Hello Human!"></c:out></h1>
-<p>  Welcome to SpringBoot! </p>
+<div class="time"> 
+<h2> <c:out value="${time}"></c:out></h2>
 </div>
-
 </body>
 </html>

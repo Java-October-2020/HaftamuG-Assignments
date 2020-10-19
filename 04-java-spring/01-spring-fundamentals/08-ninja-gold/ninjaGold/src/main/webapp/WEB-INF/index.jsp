@@ -1,34 +1,64 @@
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Ninja Gold</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta charset="ISO-8859-1">
+<title>NinjaGold</title>
+<link rel="stylesheet" type="text/css"  href="css/style.css" >
 </head>
 <body>
+
 <h1>Ninja Gold</h1>
 <h3>Your Gold: <c:out value="${totalGold}"/></h3>
 
+<c:forEach items="myBuildings" var ="building">
 
 
-<c:forEach items="${myBuildings}" var="building">
+
+</c:forEach>
 <div class="building">
-<h3><c:out value="${building.getName()}" /></h3>
-<p>(earns <c:if test="${building.getCanLose()}"> / Loses</c:if><c:out value="${building.getMin()}" />- <c:out value="${building.getMax()}" /> gold)</p>
+<h3>Farm</h3>
+<p>(earns 10-20 gold)</p>
 <form method="post" action="/getGold">
-<input type="hidden" name="building" value="<c:out value="${building.getName()}" />">
-<button>Find Gold!</button>
+<input type="hidden" name="building" value= "farm">
+<button> Find Gold</button>
 </form>
+
 </div>
-</c:forEach>
 
-<h3>Activities:</h3>
-<div class="activities">
+<div class="building">
+<h3>Cave</h3>
+<p>(earns 5-10 gold)</p>
+<form method="post" action="/getGold">
+<input type="hidden" name="building" value= "cave">
+<button> Find Gold</button>
+</form>
 
-<c:forEach var="activity" items="${activityLog }">
-
-
-<p class='${activity.contains("lost")? "red":"green"}'><c:out value="${activity}"/></p>
-</c:forEach>
 </div>
+
+<div class="building">
+<h3>House</h3>
+<p>(earns 2-5 gold)</p>
+<form method="post" action="/getGold">
+<input type="hidden" name="building" value= "house">
+<button> Find Gold</button>
+</form>
+
+</div>
+
+<div class="building">
+<h3>Casino</h3>
+<p>(earns /lose 0-50 gold)</p>
+<form method="post" action="/getGold">
+<input type="hidden" name="building" value= "casino">
+<button> Find Gold</button>
+</form>
+
+</div>
+
+
+
 </body>
 </html>

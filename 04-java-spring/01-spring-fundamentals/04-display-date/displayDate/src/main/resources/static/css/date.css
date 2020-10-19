@@ -1,0 +1,55 @@
+body{
+	background-color: grey;
+}
+
+.template{
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+    
+}
+
+a{
+	
+ padding:40px;
+ text-align: center;
+ color: #7a95bb;
+
+}
+
+.date{
+	
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+    color: blue;
+    
+}
+
+.time{
+	
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+    color: green;
+	
+}
+
+
+
+

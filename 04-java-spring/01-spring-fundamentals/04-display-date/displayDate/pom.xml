@@ -8,10 +8,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com..haftamu.ninjaGold</groupId>
-	<artifactId>ninjaGold</artifactId>
+	<groupId>com..haftamu.displayDate</groupId>
+	<artifactId>displayDate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ninjaGold</name>
+	<name>displayDate</name>
 	<description>spring assignment</description>
 
 	<properties>

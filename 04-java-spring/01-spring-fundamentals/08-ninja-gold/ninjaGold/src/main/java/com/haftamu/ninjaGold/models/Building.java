@@ -1,4 +1,4 @@
-package com.ninjaGold.matthew.models;
+package com.haftamu.ninjaGold.models;
 
 public class Building {
 	String name;
@@ -6,7 +6,6 @@ public class Building {
 	int max;
 	Boolean canLose;
 	public Building(String name, int min, int max, Boolean canLose) {
-		super();
 		this.name = name;
 		this.min = min;
 		this.max = max;
@@ -37,5 +36,5 @@ public class Building {
 		this.canLose = canLose;
 	}
 	
-	
+
 }

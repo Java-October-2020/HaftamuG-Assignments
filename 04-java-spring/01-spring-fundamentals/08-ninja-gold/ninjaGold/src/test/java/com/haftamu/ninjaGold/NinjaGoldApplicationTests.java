@@ -1,4 +1,4 @@
-package com.ninjaGold.matthew;
+package com.haftamu.ninjaGold;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
