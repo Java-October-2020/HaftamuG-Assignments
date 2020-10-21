@@ -31,6 +31,8 @@ public class CounterController {
 	        	currentCount++;
 	        	session.setAttribute("counter", currentCount);
 	        	model.addAttribute("counter", currentCount);
+	    
+		
 		return "counter.jsp";
 	}
 	
