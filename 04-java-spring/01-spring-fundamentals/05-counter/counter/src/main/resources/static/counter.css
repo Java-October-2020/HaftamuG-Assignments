@@ -1,0 +1,31 @@
+body{
+	background-color: grey;
+}
+
+.welcomePage{
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+    
+}
+
+
+
+.currentPage{
+	
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+    color: green;
+	
+}
