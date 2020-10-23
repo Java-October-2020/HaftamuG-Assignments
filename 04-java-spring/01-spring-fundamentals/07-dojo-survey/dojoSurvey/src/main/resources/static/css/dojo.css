@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	background-color: grey;
+	width: 600px;
+	height: 400px;
+
+}
+
+button{
+	
+	background-color: #75a5af;
+
+}
+
+.survey{
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+
+}
+
+.index{
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+    margin-top:  100px;
+    background-color: #fff;
+    margin-left:  538px;
+
+}
+.submit{
+	background-color: #75a5af;
+	
+}

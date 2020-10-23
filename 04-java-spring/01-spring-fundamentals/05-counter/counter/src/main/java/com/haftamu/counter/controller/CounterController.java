@@ -14,15 +14,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CounterController {
 	
 	@RequestMapping(value="/",method=RequestMethod.GET)
-	public String welcome() {
+	public String welcom() {
 		
-
 		return "welcome.jsp";
 	}
 
 	
 	@GetMapping("/counter")
-//	public String counter(@RequestParam(value="counter") String counter, HttpSession session, Model model) {
 	public String counter(HttpSession session, Model model) {
 		Integer currentCount = (Integer) session.getAttribute("counter");
 		if(currentCount == null) {
@@ -31,7 +29,6 @@ public class CounterController {
 	        	currentCount++;
 	        	session.setAttribute("counter", currentCount);
 	        	model.addAttribute("counter", currentCount);
-	    
 		
 		return "counter.jsp";
 	}
