@@ -30,14 +30,6 @@ public class BookController {
         model.addAttribute("book", book);
         return "bookShow.jsp";
     }
-    
-    
-    @RequestMapping("/")
-    public String createRecord(Model model) {
-        List<Book> book = bookService.allBooks();
-        model.addAttribute("book", book);
-        return "index.jsp";
-    }
-    
+   
     
     }

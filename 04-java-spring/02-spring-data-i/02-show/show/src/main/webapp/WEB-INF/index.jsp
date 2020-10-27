@@ -11,7 +11,6 @@
 <div class="container"></div>
 <table class="table table-dark"></table>
 <thead>
-   <th>author</th>
    <th>bookname</th>
    <th>language</th>
    <th>pages</th>
@@ -19,7 +18,6 @@
 <tbody>
 <c:forEach items="$books" var="book">
 <tr>
-<td>${book.author}</td>
 <td>${book.bookname}</td>
 <td>${book.language}</td>
 <td>${book.pages}</td>
